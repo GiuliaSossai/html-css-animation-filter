@@ -19,12 +19,31 @@
   transition: background-color 1s;
 }
 
-.ex-5-square:hover {
-  scale: (2);
+.ex-5-square {
   transition: all 2s;
 }
 
+.ex-5-square:hover {
+  transform: scale(2);
+}
+
 .ex-5-square:active {
-  scale: (.5);
+  transform: scale(.5);
+}
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+.ex-7-img, .ex-8-img {
   transition: all 2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(.6) invert(100%);
+}
+
+.ex-8-img:hover {
+  filter: saturate(7) blur(3px);
+  border-radius: 10px;
 }
