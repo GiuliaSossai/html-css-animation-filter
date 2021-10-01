@@ -3,3 +3,9 @@
   transition: 3s;
 }
 
+.ex-2-square:active {
+  width: 100%;
+  transition: width 2s;
+  transition-timing-function: ease;
+}
+
